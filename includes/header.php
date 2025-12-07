@@ -1,7 +1,7 @@
 <?php
 $protocol = isset($_SERVER['HTTPS']) ? "https://" : "http://";
 $host = $_SERVER['HTTP_HOST'];
-$folder = "/ITCERTß";
+$folder = "/ITCERTG";
 
 $BASE_URL = $protocol . $host . $folder;
 ?>
