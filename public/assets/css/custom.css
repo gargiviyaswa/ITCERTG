@@ -1,0 +1,121 @@
+/* Navigation underline animation */
+.nav-link {
+  position: relative;
+  display: inline-block;
+  padding-bottom: 2px;
+  font-size: 1.15rem;
+  font-weight: 500;
+  color: #0f4dad !important;
+}
+.nav-link:hover {
+  color: #144cab !important;
+}
+.nav-link::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -2px;
+  height: 2px;
+  width: 0;
+  background-color: #144cab; /* Your ascent color */
+  transition: all 0.3s ease;
+  transform: translateX(-50%);
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
+
+/* ACTIVE PAGE underline */
+.nav-link.active::after {
+  width: 100%;
+}
+#homeBanner .carousel-caption {
+  background: rgba(0,0,0,0.45);
+  padding: 20px;
+  border-radius: 10px;
+}
+#homeBanner h2 {
+  font-size: 2rem;
+}
+
+.headerbg {
+  background-color: #fdfdfe;
+}
+
+.swiper-slide .card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.swiper-slide .card-body {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.line-clamp-3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* Number of lines to show */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.bg-secondary.py-5 {
+  background-image: url('../images/section-bg.jpg');
+  background-attachment: fixed;
+}
+.btn-warning {
+   background: linear-gradient(135deg, #e77315 0%, #ff9e3d 100%) !important;
+    color: #fff !important;
+    border: none !important;
+    transition: 0.3s;
+}
+.bg-warning {
+    background: linear-gradient(135deg, #e77315 0%, #ff9e3d 100%) !important;
+    color: #fff !important;
+    border: none !important;
+    transition: 0.3s;
+}
+
+.bg-warning:hover {
+    background: linear-gradient(135deg, #ff9e3d 0%, #e77315 100%) !important;
+}
+
+.bg-primary {
+    background-color: #0d47a1 !important;
+    border-color: #0d47a1 !important;
+    color: white;
+}
+.btn-warning:hover {
+    background: linear-gradient(135deg, #ff9e3d 0%, #e77315 100%) !important;
+}
+.clearfix {
+  clear: both;
+}
+
+/* whatsApp chat */
+.whatsapp-chat {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+}
+
+.whatsapp-chat img {
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+.whatsapp-chat img:hover {
+    transform: scale(1.1);
+    transition: 0.2s ease-in-out;
+}
+.card.shadow-sm {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card.shadow-sm:hover {
+    transform: translateY(-5px);  
+}

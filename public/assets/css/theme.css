@@ -1,0 +1,185 @@
+/* ----------------------------------------
+   THEME COLORS (Brand Colors)
+----------------------------------------- */
+
+:root {
+    --primary-blue: #0056A6;
+    --primary-orange: #F36A10;
+
+    --blue-dark: #003F7F;
+    --blue-deep: #002B4C;
+
+    --orange-dark: #D85C0D;
+
+    --light-gray: #F5F5F5;
+    --dark-text: #333333;
+    --muted-text: #777777;
+}
+
+/* ----------------------------------------
+   GLOBAL DEFAULTS
+----------------------------------------- */
+
+body {
+    color: var(--dark-text);
+    background-color: #ffffff;
+    font-family: "Inter", Arial, sans-serif;
+}
+
+/* ----------------------------------------
+   NAVBAR / HEADER
+----------------------------------------- */
+
+.navbar {
+    background-color: var(--blue-dark) !important;
+}
+
+.navbar .nav-link {
+    color: #ffffff !important;
+    font-weight: 500;
+}
+
+.navbar .nav-link:hover {
+    color: var(--primary-orange) !important;
+}
+
+.navbar-brand {
+    color: #ffffff !important;
+    font-weight: bold;
+}
+
+/* Mobile Menu Background */
+.navbar-collapse {
+    background-color: var(--blue-dark);
+}
+
+/* ----------------------------------------
+   FOOTER
+----------------------------------------- */
+
+footer {
+    background-color: var(--blue-deep);
+    color: #ffffff;
+    padding: 40px 0;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: var(--primary-orange);
+}
+
+/* ----------------------------------------
+   BUTTONS
+----------------------------------------- */
+
+/* Primary Button */
+.btn-primary {
+    background-color: var(--primary-orange) !important;
+    border-color: var(--primary-orange) !important;
+    color: #ffffff !important;
+    font-weight: 600;
+}
+
+.btn-primary:hover {
+    background-color: var(--orange-dark) !important;
+    border-color: var(--orange-dark) !important;
+}
+
+/* Secondary Button */
+.btn-secondary {
+    background-color: var(--primary-blue) !important;
+    border-color: var(--primary-blue) !important;
+    color: #ffffff !important;
+    font-weight: 600;
+}
+
+.btn-secondary:hover {
+    background-color: var(--blue-dark) !important;
+    border-color: var(--blue-dark) !important;
+}
+
+/* Outline Button */
+.btn-outline-primary {
+    border-color: var(--primary-orange) !important;
+    color: var(--primary-orange) !important;
+    font-weight: 600;
+}
+
+.btn-outline-primary:hover {
+    background-color: var(--primary-orange) !important;
+    color: #ffffff !important;
+}
+
+/* ----------------------------------------
+   SECTION BACKGROUNDS
+----------------------------------------- */
+
+.bg-light-gray {
+    background-color: var(--light-gray);
+}
+
+.bg-brand-blue {
+    background-color: var(--primary-blue);
+    color: #ffffff;
+}
+
+.bg-brand-orange {
+    background-color: var(--primary-orange);
+    color: #ffffff;
+}
+
+.bg-blue-deep {
+    background-color: var(--blue-deep);
+    color: #ffffff;
+}
+
+/* ----------------------------------------
+   TEXT COLORS
+----------------------------------------- */
+
+.text-blue {
+    color: var(--primary-blue);
+}
+
+.text-orange {
+    color: var(--primary-orange);
+}
+
+.text-muted-custom {
+    color: var(--muted-text);
+}
+
+/* ----------------------------------------
+   CARDS / BOXES
+----------------------------------------- */
+
+.card {
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0px 3px 10px rgba(0,0,0,0.08);
+}
+
+.card:hover {
+    transform: translateY(-4px);
+    transition: 0.2s ease;
+}
+
+/* ----------------------------------------
+   CUSTOM UTILITIES
+----------------------------------------- */
+
+.brand-border {
+    border: 2px solid var(--primary-blue);
+}
+
+.brand-border-orange {
+    border: 2px solid var(--primary-orange);
+}
+
+.btn-rounded {
+    border-radius: 50px;
+}

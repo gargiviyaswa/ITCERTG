@@ -1,0 +1,17 @@
+<svg width="600" height="600" viewBox="0 0 600 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Outer soft decorative ring -->
+  <circle cx="300" cy="300" r="260" stroke="#C9A54A" stroke-width="8" opacity="0.15"></circle>
+
+  <!-- Inner decorative ring -->
+  <circle cx="300" cy="300" r="210" stroke="#C9A54A" stroke-width="4" stroke-dasharray="6 12" opacity="0.25"></circle>
+
+  <!-- Main ribbon badge -->
+  <circle cx="300" cy="250" r="120" fill="none" stroke="#D6B15C" stroke-width="12" opacity="0.35"></circle>
+
+  <!-- Decorative star inside -->
+  <path d="M300 150 L318 225 L395 225 L333 270 L353 345 L300 295 L247 345 L267 270 L205 225 L282 225 Z" fill="none" stroke="#D6B15C" stroke-width="8" opacity="0.35"></path>
+
+  <!-- Ribbon tails -->
+  <path d="M260 360 L230 480 L300 420 L370 480 L340 360" fill="none" stroke="#C9A54A" stroke-width="10" opacity="0.35" stroke-linecap="round"></path>
+
+</svg>
