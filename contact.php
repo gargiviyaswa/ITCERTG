@@ -17,7 +17,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     if ($name === "" || $email === "" || $phone === "" || $course === "") {
         $errorMessage = "Please fill all required fields.";
     } else {
-        $to      = "info@ITCERTG.com";
+        $to      = "info@itcertg.com";
         $subject = "New Contact Inquiry From ITCERTG";
         
         $message = "
@@ -124,7 +124,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
             <div class="mb-3">
                 <p class="fw-semibold mb-1">Email:</p>
-                <p><a href="mailto:info@ITCERTG.com" class="text-muted">info@ITCERTG.com</a></p>
+                <p><a href="mailto:info@itcertg.com" class="text-muted">info@itcertg.com</a></p>
             </div>
 
             <img src="https://certforest.com/images/1.jpg" class="img-fluid rounded-4 shadow mt-4" alt="Contact Image">

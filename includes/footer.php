@@ -43,7 +43,7 @@
         </p>
 
         <p class="small">Email:
-          <a class="text-white text-decoration-none" href="mailto:support@ITCERTG.com">support@ITCERTG.com</a>
+          <a class="text-white text-decoration-none" href="mailto:support@itcertg.com">support@itcertg.com</a>
         </p>
 
         <p class="small mt-2">Phone:
