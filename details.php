@@ -32,7 +32,7 @@ include "includes/navbar.php";
 <section class="container py-5">
     <nav aria-label="breadcrumb">
         <ol class="breadcrumb mb-4">
-            <li class="breadcrumb-item"><a href="#">Home</a></li>
+            <li class="breadcrumb-item"><a href="<?php echo $BASE_URL ?>">Home</a></li>
             <li class="breadcrumb-item"><a href="<?php echo $BASE_URL ?>/certificates.php">Certificates</a></li>
             <li class="breadcrumb-item active" id="certTitleBread">Loading...</li>
         </ol>
