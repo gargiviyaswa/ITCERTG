@@ -50,9 +50,9 @@
 
       <!-- WhatsApp Button -->
       <div class="ms-lg-3 mt-3 mt-lg-0">
-        <a href="https://wa.me/919970999518?text=Hello!%20I%20need%20help%20with%20certifications."
+        <a href="https://wa.me/919545731893?text=Hello!%20I%20need%20help%20with%20certifications."
            target="_blank" class="btn btn-warning btn-lg">
-          +91 9999999999
+          +91 9545731893
         </a>
       </div>
 

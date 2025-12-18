@@ -43,11 +43,11 @@
         </p>
 
         <p class="small">Email:
-          <a class="text-white text-decoration-none" href="mailto:support@itcertg.com">support@itcertg.com</a>
+          <a class="text-white text-decoration-none" href="mailto:samirhindustani2025@gmail.com">samirhindustani2025@gmail.com</a>
         </p>
 
         <p class="small mt-2">Phone:
-          <a class="text-white text-decoration-none" href="tel:+919876543210">+91 98765 43210</a>
+          <a class="text-white text-decoration-none" href="tel:+918007294965">+91 8007294965</a>
         </p>
       </div>
 
@@ -61,7 +61,7 @@
     </div>
   </div>
 </footer>
-<a href="https://wa.me/919970999518?text=Hello!%20I%20need%20help%20with%20certifications." target="_blank"
+<a href="https://wa.me/919545731893?text=Hello!%20I%20need%20help%20with%20certifications." target="_blank"
   class="whatsapp-chat">
   <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp Chat" />
 </a>
