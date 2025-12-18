@@ -27,7 +27,7 @@ include "includes/banner-slider.php";
         </div>
 
         <!-- Stats Boxes -->
-        <div class="row mt-4 gy-3">
+        <!-- <div class="row mt-4 gy-3">
           <div class="col-4">
             <div class="bg-white p-3 rounded text-center shadow-sm">
               <div class="text-muted small">Hours</div>
@@ -46,7 +46,7 @@ include "includes/banner-slider.php";
               <div class="fw-semibold fs-5">Quizzes</div>
             </div>
           </div>
-        </div>
+        </div> -->
 
       </div>
 
